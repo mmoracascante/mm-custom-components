@@ -17,6 +17,9 @@ const meta = {
         },
         color: {
             control: 'select'
+        },
+        backgroundColor: {
+            control: 'color',
         }
     }
 
@@ -55,5 +58,14 @@ export const CustomColorLabel: Story = {
         label: 'Custom color label',
         size: 'normal',
         fontColor: '#46dd'
+    }
+}
+
+export const CustomBackgroundColor: Story = {
+    args: {
+        label: 'Background color',
+        size: 'h1',
+        fontColor: 'white',
+        backgroundColor: '#4df'
     }
 }
