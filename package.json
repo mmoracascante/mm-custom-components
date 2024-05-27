@@ -5,6 +5,10 @@
   "type": "module",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
+  "np": {
+    "testScript": "unit-test",
+    "contents": "dist"
+  },
   "keywords": [
     "react",
     "dev",

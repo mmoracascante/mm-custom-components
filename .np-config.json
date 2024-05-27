@@ -1,0 +1,4 @@
+{
+    "testScript": "unit-test",
+    "contents": "dist"
+}
