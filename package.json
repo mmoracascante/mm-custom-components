@@ -28,6 +28,9 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
+  "engines": {
+    "node": ">=12.10.0"
+  },
   "scripts": {
     "dev": "npm run storybook",
     "build": "npm run clean && tsc && npm run copyfiles",
