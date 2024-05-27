@@ -29,7 +29,8 @@
     "react-dom": "^18.2.0"
   },
   "engines": {
-    "node": ">=12.10.0"
+    "node": ">=12.10.0",
+    "npm": ">=6.0.0 <7.0.0"
   },
   "scripts": {
     "dev": "npm run storybook",
